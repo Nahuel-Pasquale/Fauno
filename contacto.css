@@ -264,3 +264,164 @@ CONTACTO
   width: 100%;
   height: 100%;
 }
+/* 
+
+
+Responsive Celu
+
+ */
+
+@media screen and (max-width: 620px) {
+  .contacto {
+    flex-direction: column-reverse;
+  }
+
+  .donde-estamos {
+    width: 100%;
+    height: 55vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    width: 100%;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mapa {
+    width: 100%;
+    height: 75%;
+    background-color: white;
+  }
+
+  .leyenda-mapa {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .leyenda-mapa-contacto {
+    width: 25%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: baseline; */
+    margin-left: 0%;
+    line-height: 0%;
+  }
+  .leyenda-mapa-contacto h4 {
+    font-size: 1rem;
+    line-height: 0%;
+  }
+  .leyenda-mapa-contacto h5 {
+    font-size: 0.9rem;
+    line-height: 0%;
+  }
+
+  .leyenda-mapa-ubicacion {
+    width: 25%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+
+  .leyenda-mapa-ubicacion h4 {
+    font-size: 1rem;
+    line-height: 0%;
+  }
+  .leyenda-mapa-ubicacion h5 {
+    font-size: 0.9rem;
+    line-height: 0%;
+  }
+  .leyenda-mapa-logo {
+    width: 33%;
+    height: 100%;
+    background: url(imagenes/logo1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .leyenda-info {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 25%;
+  }
+  .leyenda-info h2 {
+    color: white;
+    font-size: 2.6rem;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .descripcion-leyenda-info {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .descripcion-leyenda-info h4 {
+    font-size: 1.3rem;
+    font-weight: 100;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .redes-info {
+    width: 55%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .redes {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .redes a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.6rem;
+    margin-left: 5%;
+  }
+
+  .follow-us {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 50%;
+    height: 10%;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .follow-us span {
+    width: 15%;
+    height: 10%;
+    margin-top: 1.5vh;
+    margin-right: 1vh;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .mapa {
+    width: 100%;
+    height: 100%;
+  }
+}
