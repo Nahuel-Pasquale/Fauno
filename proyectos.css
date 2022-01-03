@@ -37,9 +37,9 @@
 .imagen-proyecto-01 h2 {
   color: transparent;
   width: 100%;
-  height: 100%;
+  height: 50%;
   text-align: center;
-  margin-top: 90%;
+  margin-top: 40%;
   opacity: 1;
   font-family: biko;
 }
@@ -91,7 +91,7 @@
   font-weight: bolder;
   margin-left: 2%;
   margin-bottom: 5%;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 .descripcion-proyecto-01 a {
@@ -152,6 +152,113 @@
   margin-left: 25%;
 }
 
+.proyecto-2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.info-proyecto-02 {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  background-color: white;
+}
+.descripcion-proyecto-01 {
+  width: 90%;
+  height: 50%;
+}
+.info-proyecto-01 a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.descripcion-proyecto-01 p {
+  font-size: 1.8rem;
+  font-family: "Josefin Sans";
+  margin-left: 2%;
+}
+
+.contenedor-titulo-proyecto-01 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(imagenes/01.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position-y: 10px; */
+  background-position-x: -12vw;
+}
+
+.contenedor-titulo-proyecto-01 h2 {
+  font-family: biko;
+  font-size: 6rem;
+  font-weight: bolder;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  letter-spacing: 0.1rem;
+}
+
+.button-proyecto-02 {
+  width: 15%;
+  height: 7%;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: biko;
+  text-align: left;
+  border-style: none;
+  margin-right: 75%;
+}
+.button-proyecto {
+  width: 100%;
+  height: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: inherit;
+  text-decoration: none;
+  border-style: none;
+  /* border-bottom: 1px solid black; */
+  margin-left: 15%;
+  font-family: "Josefin Sans", bold;
+  font-weight: 900px;
+}
+.imagen-proyecto-02 {
+  width: 100%;
+  height: 100%;
+  background: url(imagenes/fauno.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen-proyecto-03 {
+  width: 100%;
+  height: 100%;
+  background: url(imagenes/fauno1.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 620px) {
   .proyecto-1 {
     flex-direction: column;
