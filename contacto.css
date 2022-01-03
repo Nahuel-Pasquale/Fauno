@@ -29,7 +29,7 @@
   margin-bottom: 4px;
   border-radius: 2px;
   width: 28px;
-  height: 4px;
+  height: 1px;
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -91,7 +91,6 @@
   text-align: center;
   /* font-family: Verdadna, Arial, Helvetica; */
   color: nav-color-text;
-  /* color: green; */
   font-size: 1.5rem;
   line-height: 3em;
   height: 3em;
@@ -162,7 +161,6 @@ CONTACTO
 .mapa {
   width: 100%;
   height: 75%;
-  background-color: green;
 }
 
 .leyenda-mapa {
@@ -263,6 +261,16 @@ CONTACTO
 .mapa {
   width: 100%;
   height: 100%;
+}
+
+.logo {
+  width: 50%;
+  height: 10vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
 }
 /* 
 

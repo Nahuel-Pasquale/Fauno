@@ -1,0 +1,308 @@
+._layer {
+  background-color: black;
+}
+
+.proyecto-1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.contenedor-imagen-proyecto-01 {
+  width: 40%;
+  height: 80%;
+}
+
+.contenedor-imagen-proyecto-01:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.imagen-proyecto-01 {
+  width: 100%;
+  height: 100%;
+  background: url(imagenes/foto\ 1.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen-proyecto-01:hover {
+  opacity: 0.5;
+}
+
+.imagen-proyecto-01 h2 {
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 90%;
+  opacity: 1;
+  font-family: biko;
+}
+.imagen-proyecto-01 h2:hover {
+  color: white;
+  opacity: 1;
+}
+
+.info-proyecto-01 {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+}
+.descripcion-proyecto-01 {
+  width: 90%;
+  height: 50%;
+}
+.info-proyecto-01 a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.descripcion-proyecto-01 p {
+  font-size: 1.8rem;
+  font-family: "Josefin Sans";
+  margin-left: 2%;
+}
+
+.contenedor-titulo-proyecto-01 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(imagenes/01.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position-y: 10px; */
+  background-position-x: -12vw;
+}
+
+.contenedor-titulo-proyecto-01 h2 {
+  font-family: biko;
+  font-size: 6rem;
+  font-weight: bolder;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  letter-spacing: 0.2rem;
+}
+
+.descripcion-proyecto-01 a {
+  width: 100%;
+  height: 7%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: biko;
+  text-align: center;
+  border-style: none;
+  margin-left: 15%;
+}
+
+.button-proyecto {
+  width: 100%;
+  height: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: inherit;
+  text-decoration: none;
+  border-style: none;
+  /* border-bottom: 1px solid black; */
+  margin-left: 15%;
+  font-family: "Josefin Sans", bold;
+  font-weight: 900px;
+}
+.button-proyecto:hover {
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+.boton-responsive-01 {
+  display: none;
+}
+.logo {
+  margin-top: 0.5%;
+  width: 100%;
+  height: 10vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+}
+.logo {
+  width: 50%;
+  height: 10vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
+@media screen and (max-width: 620px) {
+  .proyecto-1 {
+    flex-direction: column;
+  }
+  .contenedor-imagen-proyecto-01 {
+    width: 80%;
+    height: 40%;
+  }
+
+  .imagen-proyecto-01 {
+    width: 100%;
+    height: 100%;
+    background: url(imagenes/foto\ 1.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagen-proyecto-01:hover {
+    opacity: 0.5;
+  }
+
+  .imagen-proyecto-01 h2 {
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 90%;
+    opacity: 1;
+    font-family: biko;
+  }
+  .imagen-proyecto-01 h2:hover {
+    color: white;
+    opacity: 1;
+  }
+
+  .info-proyecto-01 {
+    width: 80%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+  }
+  .descripcion-proyecto-01 {
+    width: 90%;
+    height: 60%;
+  }
+  .info-proyecto-01 a {
+    display: none;
+  }
+  .info-proyecto-01 a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .descripcion-proyecto-01 p {
+    font-size: 1.4rem;
+    font-family: "Josefin Sans";
+    margin-left: 2%;
+  }
+
+  .contenedor-titulo-proyecto-01 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(imagenes/01.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-position-y: 10px; */
+    background-position-x: -25vw;
+  }
+
+  .contenedor-titulo-proyecto-01 h2 {
+    font-family: biko;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-left: 2%;
+    margin-bottom: 8%;
+    letter-spacing: 0.2rem;
+  }
+
+  .descripcion-proyecto-01 a {
+    width: 100%;
+    height: 7%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: biko;
+    text-align: center;
+    border-style: none;
+    margin-left: 15%;
+  }
+
+  .button-proyecto {
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: inherit;
+    text-decoration: none;
+    border-style: none;
+    /* border-bottom: 1px solid black; */
+    margin-left: 15%;
+    font-family: "Josefin Sans", bold;
+    font-weight: 900px;
+  }
+  .button-proyecto:hover {
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+  }
+  .boton-responsive-01 {
+    width: 80%;
+    height: 3%;
+    background-color: none;
+    text-decoration: none;
+    font-family: biko;
+    border-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10%;
+  }
+  .button-proyecto-responsive-01 {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 100%;
+    height: 100%;
+    color: black;
+    display: flex;
+    background-color: inherit;
+    text-decoration: none;
+    font-family: biko;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-style: none;
+    border-bottom: 1px solid black;
+  }
+  .button-proyecto-responsive-01:hover {
+    border-bottom: 1px solid black;
+  }
+}
