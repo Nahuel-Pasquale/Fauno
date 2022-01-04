@@ -78,7 +78,7 @@
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-position-y: -12vh;
+  background-position-y: -9vh;
   background-position-x: -3.5vw;
 }
 .contenedor-titulo-proyecto-02 {
@@ -91,7 +91,7 @@
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-position-y: -12vh;
+  background-position-y: -9vh;
   background-position-x: -3.5vw;
 }
 .contenedor-titulo-proyecto-03 {
@@ -104,7 +104,7 @@
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-position-y: -12vh;
+  background-position-y: -9vh;
   background-position-x: -3.5vw;
 }
 
@@ -533,3 +533,21 @@
     border-bottom: 1px solid black;
   }
 }
+
+/* @media screen and (max-width: 1600) {
+  .contenedor-titulo-proyecto-03 {
+    background-size: 40%;
+    background-position-y: -12vh;
+    background-position-x: -3.5vw;
+  }
+  .contenedor-titulo-proyecto-01 {
+    background-size: 40%;
+    background-position-y: -12vh;
+    background-position-x: -3.5vw;
+  }
+  .contenedor-titulo-proyecto-01 {
+    background-size: 40%;
+    background-position-y: -0vh;
+    background-position-x: -0vw;
+  }
+} */
