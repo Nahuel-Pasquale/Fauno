@@ -354,7 +354,8 @@ html {
   text-decoration: none;
 }
 .button-proyecto:hover {
-  text-decoration: none;
+  /* text-decoration: none; */
+  transition: 0s;
 }
 .boton-responsive {
   display: none;

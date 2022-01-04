@@ -178,6 +178,7 @@ CONTACTO
   justify-content: space-around;
   flex-direction: column;
   margin-left: 10%;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .leyenda-mapa-ubicacion {
@@ -186,6 +187,7 @@ CONTACTO
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
 }
 .leyenda-mapa-logo {
   width: 25%;
@@ -206,7 +208,8 @@ CONTACTO
 .leyenda-info h2 {
   color: white;
   font-size: 5rem;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: biko;
+  letter-spacing: 0.2rem;
 }
 
 .descripcion-leyenda-info {

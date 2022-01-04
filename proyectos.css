@@ -1,7 +1,6 @@
 ._layer {
   background-color: black;
 }
-
 .proyecto-1 {
   width: 100%;
   height: 100vh;
@@ -13,25 +12,23 @@
 .contenedor-imagen-proyecto-01 {
   width: 40%;
   height: 80%;
-}
-
-.contenedor-imagen-proyecto-01:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background: url(imagenes/foto\ 1.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .imagen-proyecto-01 {
   width: 100%;
   height: 100%;
-  background: url(imagenes/foto\ 1.jpeg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  opacity: 0.5;
 }
 .imagen-proyecto-01:hover {
-  opacity: 0.5;
+  opacity: 0;
 }
 
 .imagen-proyecto-01 h2 {
@@ -77,12 +74,38 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: url(imagenes/01.png);
-  background-size: cover;
+  background: url(imagenes/Sin\ título-1.jpg);
+  background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-position-y: 10px; */
-  background-position-x: -12vw;
+  background-position-y: -12vh;
+  background-position-x: -3.5vw;
+}
+.contenedor-titulo-proyecto-02 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(imagenes/Sin\ título-2-02.jpg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: -12vh;
+  background-position-x: -3.5vw;
+}
+.contenedor-titulo-proyecto-03 {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(imagenes/Sin\ título-3-03.jpg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: -12vh;
+  background-position-x: -3.5vw;
 }
 
 .contenedor-titulo-proyecto-01 h2 {
@@ -106,6 +129,7 @@
   text-align: center;
   border-style: none;
   margin-left: 15%;
+  /* font-weight: 900; */
 }
 
 .button-proyecto {
@@ -121,8 +145,8 @@
   border-style: none;
   /* border-bottom: 1px solid black; */
   margin-left: 15%;
-  font-family: "Josefin Sans", bold;
-  font-weight: 900px;
+  font-family: "Josefin Sans";
+  font-weight: 900%;
 }
 .button-proyecto:hover {
   text-decoration: none;
@@ -185,20 +209,6 @@
   margin-left: 2%;
 }
 
-.contenedor-titulo-proyecto-01 {
-  width: 100%;
-  height: 60%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background: url(imagenes/01.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* background-position-y: 10px; */
-  background-position-x: -12vw;
-}
-
 .contenedor-titulo-proyecto-01 h2 {
   font-family: biko;
   font-size: 6rem;
@@ -237,33 +247,77 @@
   font-family: "Josefin Sans", bold;
   font-weight: 900px;
 }
-.imagen-proyecto-02 {
-  width: 100%;
-  height: 100%;
+.contenedor-imagen-proyecto-02 {
+  width: 40%;
+  height: 80%;
   background: url(imagenes/fauno.jpeg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+.imagen-proyecto-02 {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.imagen-proyecto-03 {
-  width: 100%;
-  height: 100%;
+.contenedor-imagen-proyecto-03 {
+  width: 40%;
+  height: 80%;
   background: url(imagenes/fauno1.jpeg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+.imagen-proyecto-03 {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.contenedor-titulo-proyecto-01 h2 {
+  font-family: biko;
+  font-size: 6rem;
+  font-weight: bolder;
+  margin-left: 2%;
+  margin-bottom: 8%;
+  letter-spacing: 0.1rem;
+}
+.contenedor-titulo-proyecto-02 h2 {
+  width: 100%;
+  font-family: biko;
+  font-size: 6rem;
+  font-weight: bolder;
+  margin-left: 2%;
+  margin-bottom: 8%;
+  letter-spacing: 0.1rem;
+}
+.contenedor-titulo-proyecto-03 h2 {
+  font-family: biko;
+  font-size: 6rem;
+  font-weight: bolder;
+  margin-left: 2%;
+  margin-bottom: 8%;
+  letter-spacing: 0.1rem;
 }
 @media screen and (max-width: 620px) {
   .proyecto-1 {
     flex-direction: column;
   }
+  .proyecto-2 {
+    flex-direction: column;
+  }
   .contenedor-imagen-proyecto-01 {
+    width: 80%;
+    height: 40%;
+  }
+  .contenedor-imagen-proyecto-02 {
+    width: 80%;
+    height: 40%;
+  }
+  .contenedor-imagen-proyecto-03 {
     width: 80%;
     height: 40%;
   }
@@ -271,10 +325,32 @@
   .imagen-proyecto-01 {
     width: 100%;
     height: 100%;
-    background: url(imagenes/foto\ 1.jpeg);
+    /* background: url(imagenes/foto\ 1.jpeg);
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagen-proyecto-02 {
+    width: 100%;
+    height: 100%;
+    /* background: url(imagenes/fauno.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagen-proyecto-03 {
+    width: 100%;
+    height: 100%;
+    /* background: url(imagenes/fauno1.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -329,15 +405,58 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background: url(imagenes/01.png);
-    background-size: cover;
+    background: url(imagenes/Sin\ título-1.jpg);
+    background-size: 50%;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-position-y: 10px; */
-    background-position-x: -25vw;
+    background-position-y: -4.4vh;
+    background-position-x: -7.8vw;
+  }
+  .contenedor-titulo-proyecto-02 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(imagenes/Sin\ título-2-02.jpg);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -4.4vh;
+    background-position-x: -6vw;
+  }
+  .contenedor-titulo-proyecto-03 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(imagenes/Sin\ título-3-03.jpg);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -4.4vh;
+    background-position-x: -6vw;
   }
 
   .contenedor-titulo-proyecto-01 h2 {
+    font-family: biko;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-left: 2%;
+    margin-bottom: 8%;
+    letter-spacing: 0.1rem;
+  }
+  .contenedor-titulo-proyecto-02 h2 {
+    width: 100%;
+    font-family: biko;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-left: 2%;
+    margin-bottom: 8%;
+    letter-spacing: 0.1rem;
+  }
+  .contenedor-titulo-proyecto-03 h2 {
     font-family: biko;
     font-size: 3.5rem;
     font-weight: bolder;
@@ -377,6 +496,7 @@
     font-weight: 900px;
   }
   .button-proyecto:hover {
+    transition: 0s;
     text-decoration: none;
     cursor: pointer;
     border-bottom: 1px solid black;
