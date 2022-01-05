@@ -1,0 +1,77 @@
+._layer {
+  background: white;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.about {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+.about-titulos {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+.about-titulos h2 {
+  font-family: biko;
+  font-size: 4.5rem;
+  /* font-weight: bolder; */
+}
+.about-titulos h3 {
+  font-family: "Josefin Sans";
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+.about-titulos a h5 {
+  font-family: "Josefin Sans";
+  font-size: 1.8rem;
+  font-weight: lighter;
+  text-decoration: none;
+}
+.about-titulos a {
+  /* width: 100%;
+  height: 100%; */
+  font-family: "Josefin Sans";
+  color: white;
+  font-weight: lighter;
+}
+.about-titulos a:hover {
+  /* text-decoration: none; */
+  color: white;
+}
+
+.about-parrafo {
+  width: 45%;
+  height: 60%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.about-parrafo span {
+  background-color: white;
+  height: 1px;
+  width: 35%;
+}
+.about-parrafo p {
+  font-family: "Josefin Sans";
+  font-weight: lighter;
+  font-size: 1.8rem;
+}
