@@ -23,9 +23,61 @@ font-family: 'Josefin Sans', sans-serif;
   margin: 0%;
   /* font-family: "Montserrat Alternates", sans-serif; */
 }
-/* body{
-      background-color: rgba(0,0,0,0.11);
-  } */
+body {
+  animation: hide-scroll 1.5s backwards;
+}
+
+.logo-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-color: #080d15;
+  -webkit-animation: fade-out 1.5s ease-out 1.5s both;
+  animation: fade-out 1.5s ease-out 1.5s both;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+.logo-overlay img {
+  width: 20%;
+  -webkit-animation: fade-out 1s ease-out 1s both;
+  animation: fade-out 1.5s ease-out 1.5s both;
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 0;
+    overflow: hidden;
+    z-index: 0;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 0;
+    overflow: hidden;
+    z-index: 0;
+  }
+}
+
+@keyframes hide-scroll {
+  from,
+  to {
+    overflow: hidden;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
