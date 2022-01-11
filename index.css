@@ -731,3 +731,57 @@ Image credits: unsplash.com
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
 }
+
+body {
+  animation: hide-scroll 3s backwards;
+}
+
+.logo-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-color: #080d15;
+  -webkit-animation: fade-out 2s ease-out 3s both;
+  animation: fade-out 2s ease-out 3s both;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+.logo-overlay img {
+  width: 50%;
+  -webkit-animation: fade-out 2s ease-out 1s both;
+  animation: fade-out 2s ease-out 1s both;
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 0;
+    overflow: hidden;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 0;
+    overflow: hidden;
+  }
+}
+
+@keyframes hide-scroll {
+  from,
+  to {
+    overflow: hidden;
+  }
+}
