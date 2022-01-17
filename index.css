@@ -156,7 +156,7 @@ html {
     width: 60%;
   }
   .header {
-    height: 90vh;
+    height: 92vh;
   }
   .fade-carousel .carousel-inner .item {
     height: 100vh;
@@ -473,10 +473,10 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel {
   position: relative;
-  height: 90vh;
+  height: 92vh;
 }
 .fade-carousel .carousel-inner .item {
-  height: 90vh;
+  height: 92vh;
 }
 .fade-carousel .carousel-indicators > li {
   margin: 0 5px;
