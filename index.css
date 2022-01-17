@@ -36,6 +36,15 @@ body {
   background-position: center;
   background-color: #080d15;
   -webkit-animation: fade-out 1.5s ease-out 1.5s both;
+  -webkit-transition: 1.5s ease-out 1.5s both;
+  -moz-transition: 1.5s ease-out 1.5s both;
+  -ms-transition: 1.5s ease-out 1.5s both;
+  -o-transition: 1.5s ease-out 1.5s both;
+  -webkit-animation: fade-out 1s ease-out 1s both;
+  -moz-animation: fade-out 1s ease-out 1s both;
+  -ms-animation: fade-out 1s ease-out 1s both;
+  -o-animation: fade-out 1s ease-out 1s both;
+  transition: 1.5s ease-out 1.5s both;
   animation: fade-out 1.5s ease-out 1.5s both;
   position: absolute;
   top: 0;
@@ -46,7 +55,15 @@ body {
 .logo-overlay img {
   width: 20%;
   -webkit-animation: fade-out 1s ease-out 1s both;
+  -moz-animation: fade-out 1s ease-out 1s both;
+  -ms-animation: fade-out 1s ease-out 1s both;
+  -o-animation: fade-out 1s ease-out 1s both;
   animation: fade-out 1.5s ease-out 1.5s both;
+  -webkit-transition: 1.5s ease-out 1.5s both;
+  -moz-transition: 1.5s ease-out 1.5s both;
+  -ms-transition: 1.5s ease-out 1.5s both;
+  -o-transition: 1.5s ease-out 1.5s both;
+  transition: 1.5s ease-out 1.5s both;
 }
 
 @-webkit-keyframes fade-out {
