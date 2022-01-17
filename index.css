@@ -25,6 +25,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 body {
   animation: hide-scroll 1.5s backwards;
+  -webkit-animation: hide-scroll 1.5s backwards;
 }
 
 .logo-overlay {
