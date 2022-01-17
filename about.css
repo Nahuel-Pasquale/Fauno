@@ -8,6 +8,11 @@
   justify-content: center;
   align-items: center;
   background-color: black;
+  background: url(https://drive.google.com/uc?export=download&id=1eEg1QqaWDAKC36-zEhTTakpFpug3Oln2);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-size: 50%; */
 }
 
 .about {
@@ -39,7 +44,7 @@
 }
 .about-titulos a h5 {
   font-family: "Josefin Sans";
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: lighter;
   text-decoration: none;
 }
