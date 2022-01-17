@@ -151,7 +151,8 @@
 .button-proyecto:hover {
   text-decoration: none;
   cursor: pointer;
-  border-bottom: 1px solid black;
+  text-decoration: underline;
+  /* border-bottom: 1px solid black; */
 }
 .boton-responsive-01 {
   display: none;
@@ -499,7 +500,8 @@
     transition: 0s;
     text-decoration: none;
     cursor: pointer;
-    border-bottom: 1px solid black;
+    text-decoration: underline;
+    /* border-bottom: 1px solid black; */
   }
   .boton-responsive-01 {
     width: 80%;
@@ -530,7 +532,8 @@
     border-bottom: 1px solid black;
   }
   .button-proyecto-responsive-01:hover {
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
+    text-decoration: underline;
   }
 }
 
