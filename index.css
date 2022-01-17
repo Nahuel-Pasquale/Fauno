@@ -433,6 +433,7 @@ html {
 .button-proyecto:hover {
   /* text-decoration: none; */
   transition: 0s;
+  text-decoration: underline;
 }
 .boton-responsive {
   display: none;
