@@ -2,7 +2,10 @@
   background: white;
 }
 body {
-  background-color: black;
+  background: url(imagenes/fondo-about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .header {
   width: 100%;
@@ -10,13 +13,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  background: url(imagenes/fondo-about.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: transparent;
 }
-
+.menuppal {
+  background: rgba(0, 0, 0, 0.7);
+}
 .about {
   width: 70%;
   height: 70%;
