@@ -5,7 +5,7 @@ body {
   background: url(imagenes/fondo-about.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 110%;
 }
 .header {
   width: 100%;
@@ -16,7 +16,7 @@ body {
   background-color: transparent;
 }
 .menuppal {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
 }
 .about {
   width: 70%;
