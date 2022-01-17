@@ -75,6 +75,7 @@ body {
     opacity: 0;
     overflow: hidden;
     z-index: 0;
+    display: none;
   }
 }
 @keyframes fade-out {
