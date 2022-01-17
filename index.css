@@ -80,7 +80,8 @@ body {
     background-position-y: -100%;
   }
 }
-@keyframes fade-out {
+
+/* @keyframes fade-out {
   0% {
     opacity: 1;
     overflow: hidden;
@@ -92,7 +93,7 @@ body {
     display: none;
     background-position-y: -100%;
   }
-}
+} */
 
 @keyframes hide-scroll {
   from,
